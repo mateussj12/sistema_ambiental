@@ -8,6 +8,12 @@
 	font-style: normal;
 }
 
+body 
+{
+	font-family: arial;
+	font-style: normal;
+}
+
 .header
 {
 	float: left;
@@ -166,7 +172,7 @@ p.text-hero
 	color: #E5E4E4;
 }
 
-.buttom-hero
+.button-hero
 {
 	position: relative;
 	width: 270px;
@@ -178,7 +184,7 @@ p.text-hero
 	border-radius: 5px;
 }
 
-a.text-buttom
+a.text-button
 {
 	position: absolute;
 	left: 31%;
@@ -193,7 +199,7 @@ a.text-buttom
 }
 
 
-.buttom-hero:hover 
+.button-hero:hover 
 {
 	background: rgba(78, 98, 47, 0.8);
 	display: block;
@@ -206,6 +212,119 @@ a.text-buttom
 	left: 236px;
 	right: 161px;
 	top: 895px;
+}
+
+h1
+{
+	font-style: normal;
+	font-weight: 900;
+	font-size: 34px;
+	line-height: 40px;
+	padding-top: 13px;
+	display: flex;
+	align-items: center;
+
+	color: #393939;
+}
+
+h3 
+{
+	font-weight: 900;
+	font-size: 21px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	color: #393939;
+}
+
+.texto-introducao
+{
+	position: relative;
+	width: 550px;
+	height: 228.52px;
+	left: 0px;
+	top: 0px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+p.content-introducao
+{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #3F3F3F;
+	padding-top: 26px;
+}
+
+.pos-img-introducao
+{
+	position: relative;
+	top: -222px;
+	left: 673.35px;
+}
+
+img.img-introducao
+{
+	
+	width: 369.65px; 
+	height: 338.19px;
+	border: 2px solid #829631;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 8px;
+}
+
+.pos-button-vegetacao
+{
+
+}
+
+a.button-vegetecao
+{
+	position: a;
+	width: 200px;
+	height: 35.75px;
+	background: rgba(89, 134, 33, 0.9);
+	border: 2px solid #3E6C10;
+	border-radius: 5px;
+}
+
+.texto-vegetacao
+{
+	position: relative;
+	width: 464.54px;
+	height: 182.62px;
+	left: 503.46px;
+	top: -158.19px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+p.content-vegetacao
+{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #3F3F3F;
+	padding-top: 14.69px;
+}
+
+.pos-img-vegetacao
+{
+	position: relative;
+	left: 0px;
+	top: -330px;
+}
+
+img.img-vegetacao
+{
+	width: 369.65px;
+	height: 338.19px;
+	border: 2px solid #499266;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 8px;
 }
 
 p.text-footer
