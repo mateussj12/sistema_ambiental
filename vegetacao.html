@@ -2,65 +2,60 @@
 <html lang = "pt-br">
 <head>
 	<title>Sistema Ambiental</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Sistema ambiental - Site informativo">
-	<meta name="keywords" content="Texto, meio ambiente, animais, biomas">
-	<meta name="Robots" content="Index, follow">
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" href="vegetacao.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Sistema ambiental - Site informativo">
+  <meta name="keywords" content="Texto, meio ambiente, animais, biomas">
+  <meta name="Robots" content="Index, follow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/vegetacao.css"/>
 </head>
 <body>
-	<header>
-		
+	<header id="header" class="header">
 		<!--- Cabeçalho --->
-		<section>
-			<div>
-				<img src="icons/map-marker-alt-solid.svg" width="18" height="20"></img>
-				<p>Guará, Brasilia - DF</p>
-			</div>
-			<div>
-				<img src="icons/whatsapp-brands.svg" width="18" height="20"></img>
-				<p>61 983790917	
-			</div>
-			<div>
-				<img src="icons/bars-solid.svg" width="20" height="20"></img>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="vegetacao.html">Tipos de vegetação</a></li>
-						<li><a href="biomas.html">Biomas aquáticos</a></li>
-						<li><a href="animais.html">Tipos de animais</a></li>
-						<li><a href="residuos.html">Descartes de resíduos</a></li>
-					</ul>
-				</nav>
-			</div>
+		<section id="cabecalho" class="cabecalho">
+		      <div>
+		          <i class="material-icons locationIcon">location_on</i>
+		          <p class="endereco">Guará, Brasilia - DF</p>
+		      </div>
+		      <div>
+		          <i class="material-icons phoneIcon">phone_iphone</i>
+		          <p class="numero">61 983790917  
+		      </div>
+		      <div class="dropdown">
+		          <i class="material-icons menuIcon">menu</i>
+		          <div class="dropdown-content">
+		              <a href="index.html">Home</a>
+		              <a href="vegetacao.html">Tipos de vegetação</a>
+		              <a href="biomas.html">Biomas aquáticos</a>
+		              <a href="animais.html">Tipos de animais</a>
+		              <a href="residuos.html">Descartes de resíduos</a>
+		          </div> 
+		      </div>
 		</section>
-		<hr>
 		
+
 		<!--- Hero ---> 
-		<section>
-			<p>Tipos de vegetação</p>
-			<div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<section id="hero" class="hero">
+			<p class="titulo">Tipos de vegetação</p>
+			<div class="caixa-texto">
+				<p class="text-hero">
+					A pergunta parece ingênua, mas você sabe o que é um texto? Passamos boa parte de nossos dias lendo os mais diversos textos, interpretando-os e reagindo a eles por meio de novos textos. <br>
+                    Desde os textos mais corriqueiros, como placas de trânsito ou cumprimentos, até os mais elaborados, como as obras de arte ou tratados científicos, a humanidade lê e escreve textos. Mas, de fato, o que é um texto? Desde os textos mais corriqueiros, como placas de trânsito ou cumprimentos
+                </p>
 			</div>
-			<div>
-				<img src="Imagens/vegetacao/imagem1.jpg" alt="hero" width="300" height="200">
-			</div>
-			<div>
-				<a href="vegetacao.html">Acessar</a>
+			<div class="pos-button-hero">
+				<a class="button-hero text-button" href="vegetacao.html">SAIBA MAIS</a>
 			</div>	
 		</section>
 	</header>
-	<hr>
-	
+		<hr>
+
 	<!--- Conteúdo Principal --->
 	<main>
-		
+
 		<!--- Introdução --->
 		<section>
 			<div>
@@ -72,7 +67,7 @@
 				<img src="Imagens/vegetacao/imagem2.jpg" alt="introdução" width="300" height="200">
 			</div>
 		</section>
-		
+
 		<!--- Deserto --->
 		<section>
 			<h1>Deserto</h1>
@@ -180,7 +175,7 @@
 				<img src="Imagens/vegetacao/imagem10.jpg" alt="caracteristicas" width="300" height="200">
 			</div>
 		</section>
-		
+
 		<!--- Floresta temeperada --->
 		<section>
 			<h1>Floresta temperada</h1>
@@ -207,7 +202,7 @@
 				<img src="Imagens/vegetacao/imagem12.jpg" alt="caracteristicas" width="300" height="200">
 			</div>
 		</section>
-		
+
 		<!--- Savana --->
 		<section>
 			<h1>Savana</h1>
@@ -316,19 +311,10 @@
 			</div>
 		</section>
 	</main>
-	<hr>
-	<footer>
-		
-		<!--- Icones --->
+	<footer id="footer" class="footer">
 		<section>
-			<img src="icons/instagram-brands.svg" width="25" height="25"></img>
-			<img src="icons/youtube-brands.svg" width="25" height="25"></img>
-			<img src="icons/linkedin-brands.svg" width="25" height="25"></img>
-		</section>
-		<section>
-			<p>©Copyright 2021 - Sistema Ambiental by Mateus S. de Jesus</p>	
+			<p class="text-footer">©Copyright 2021 - Sistema Ambiental by Mateus S. de Jesus</p>	
 		</section>	
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,4 +1,3 @@
-
 *
 {
 	box-sizing: border-box;
@@ -22,7 +21,7 @@ body
 	height: 807px;
 	left: 0px;
 	top: 0px;
-	background-image: url(../Imagens/home/imagem1.jpg);
+	background-image: url(../Imagens/vegetacao/imagem1.jpg);
 	background-repeat: no-repeat;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
@@ -34,7 +33,7 @@ body
 	height: 67.17px;
 	left: 0px;
 	top: 0px;
-	background: rgba(2, 100, 0, 0.2);
+	background: rgba(28, 69, 22, 0.4);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -182,21 +181,22 @@ p.text-hero
 
 .button-hero
 {
+	
 	position: absolute;
 	width: 270px;
 	height: 63px;
 	padding-left: 80px;
 	padding-top: 17px;
-	background: rgba(78, 98, 47, 0.9);
+	background: rgba(78, 98, 47, 0.7);
 	border: 3px solid #465927;
 	border-radius: 5px;
 }
 
 .button-hero:hover 
 {
-	background: rgba(78, 98, 47, 0.8);
+	background: rgba(78, 98, 47, 0.5);
 	display: block;
-} 
+}
 
 h1
 {
@@ -251,228 +251,6 @@ a.text-button
 	text-decoration: none;
 }
 
-.main
-{
-	position: absolute;
-	left: 236px;
-	right: 151px;
-	top: 895px;
-}
-
-
-/*INTRODUÇÃO*/
-.texto-introducao
-{
-	position: absolute;
-	width: 550px;
-	height: 228.52px;
-	left: 0px;
-	top: 0px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-}
-
-p.content-introducao
-{
-	font-style: normal;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 19px;
-	color: #3F3F3F;
-	padding-top: 26px;
-}
-
-.pos-img-introducao
-{
-	position: absolute;
-	top: 0px;
-	left: 673.35px;
-}
-
-img.img-introducao
-{
-	
-	width: 369.65px; 
-	height: 338.19px;
-	border: 2px solid #829631;
-	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
-	border-radius: 8px;
-}
-
-
-/*VEGETACAO*/
-.pos-vegetacao
-{
-	position: absolute;
-	left: 490px;
-	top: 442px;
-}
-
-.texto-vegetacao
-{
-	padding-top: 12px;
-	width: 478.58px;
-	height: 152.93px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-	color: #3F3F3F;
-}
-
-.pos-img-vegetacao
-{
-	position: absolute;
-	left: 0px;
-	top: 426.93px;
-}
-
-.pos-button-vegetacao
-{
-	position: absolute;
-	left: 665px;
-	top: 640.37px;
-}
-
-
-/*BIOMAS*/
-.pos-biomas
-{
-	position: absolute;
-	top: 783.02px;
-}
-
-.texto-biomas
-{
-	padding-top: 12px;
-	width: 478.58px;
-	height: 152.93px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-	color: #3F3F3F;
-}
-
-.pos-img-biomas
-{
-	position: absolute;
-	left: 669.36px;
-	top: 765.11px;
-}
-
-.pos-button-biomas
-{
-	position: absolute;
-	left: 171px;
-	top: 978px;
-}
-
-
-/*ANIMAIS*/
-.pos-animais
-{
-	position: absolute;
-	left: 490px;
-	top: 1121.2px;
-}
-
-.texto-animais
-{
-	padding-top: 12px;
-	width: 478.58px;
-	height: 152.93px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-	color: #3F3F3F;
-}
-
-.pos-img-animais
-{
-	position: absolute;
-	left: 0px;
-	top: 1103.3px;
-}
-
-.pos-button-animais
-{
-	position: absolute;
-	left: 665px;
-	top: 1316px;
-}
-
-
-/*RESIDUOS*/
-.pos-residuos
-{
-	position: absolute;
-	top: 1441px;
-}
-
-.texto-residuos
-{
-	padding-top: 12px;
-	width: 478.58px;
-	height: 152.93px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-	color: #3F3F3F;
-}
-
-.pos-img-residuos
-{
-	position: absolute;
-	left: 669.36px;
-	top: 1441px;
-}
-
-.pos-button-residuos
-{
-	position: absolute;
-	left: 171px;
-	top: 1654px;
-}
-
-
-/*IMG-VEGETAÇÃO*/
-.img-vegetacao
-{
-	width: 299.71px;
-	height: 248.67px;
-	border: 2px solid #499266;
-	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
-	border-radius: 8px;
-}
-
-
-/*IMG-BIOMAS*/
-.img-biomas
-{
-	width: 299.71px;
-	height: 248.67px;
-	border: 2px solid #204865;
-	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
-	border-radius: 8px;
-}
-
-
-/*IMG-ANIMAIS*/
-.img-animais
-{
-	width: 299.71px;
-	height: 248.67px;
-	border: 2px solid #B37833;
-	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
-	border-radius: 8px;
-}
-
-
-/*IMG-RESIDUOS*/
-.img-residuos
-{
-	width: 299.71px;
-	height: 248.67px;
-	border: 2px solid #636363;
-	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
-	border-radius: 8px;
-
-}
 
 /*RODAPÉ*/
 p.text-footer
@@ -496,5 +274,5 @@ p.text-footer
 	width: 100%;
 	height: 70px;
 	background-color: #466700;
-	top: 2760px;
-}
+	top: 6973px;
+} 
