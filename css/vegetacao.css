@@ -185,16 +185,16 @@ p.text-hero
 	position: absolute;
 	width: 270px;
 	height: 63px;
-	padding-left: 80px;
-	padding-top: 17px;
-	background: rgba(78, 98, 47, 0.7);
+	padding-left: 85px;
+	padding-top: 19px;
+	background: rgba(78, 98, 47, 0.8);
 	border: 3px solid #465927;
 	border-radius: 5px;
 }
 
 .button-hero:hover 
 {
-	background: rgba(78, 98, 47, 0.5);
+	background: rgba(78, 98, 47, 1);
 	display: block;
 }
 
