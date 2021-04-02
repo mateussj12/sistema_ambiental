@@ -33,7 +33,7 @@ body
 	height: 67.17px;
 	left: 0px;
 	top: 0px;
-	background: rgba(124, 154, 113, 0.25);
+	background: rgba(176, 196, 222, 0.5);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -149,7 +149,7 @@ p.titulo
 	height: 200px;
 	left: 780px;
 	top: 240px;
-	background: rgba(92, 92, 92, 0.3);
+	background: rgba(119, 136, 153, 0.5);
 	border: 3px solid rgba(164, 160, 160, 0.3);
 	box-sizing: border-box;
 	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
@@ -181,20 +181,19 @@ p.text-hero
 
 .button-hero
 {
-	
 	position: absolute;
 	width: 270px;
 	height: 63px;
 	padding-left: 85px;
 	padding-top: 19px;
-	background: rgba(169, 169, 169, 0.8);
-	border: 3px solid #696969;
+	background: rgba(119, 136, 153, 0.7);
+	border: 3px solid #778899;
 	border-radius: 5px;
 }
 
 .button-hero:hover 
 {
-	background: rgba(169, 169, 169, 1);
+	background: rgba(119, 136, 153, 1);
 	display: block;
 }
 
@@ -221,28 +220,9 @@ h3
 	color: #393939;
 }
 
-.button-main 
-{
-	position: absolute;
-	width: 139.61px;
-	height: 35.71px;
-	padding-left: 35px;
-	padding-top: 5px;
-	background: rgba(89, 134, 33, 0.9);
-	border: 2px solid #3E6C10;
-	border-radius: 5px;
-}
-
-.button-main:hover
-{
-	background: rgba(78, 98, 47, 0.9);
-	display: block;
-}
-
 a.text-button
 {
 	position: absolute;
-	
 	font-style: normal;
 	font-weight: 900;
 	font-size: 16px;
@@ -251,6 +231,189 @@ a.text-button
 	text-decoration: none;
 }
 
+
+/*MAIN*/
+.main
+{
+	position: absolute;
+	left: 236px;
+	right: 151px;
+	top: 895px;
+}
+
+.text-main
+{
+	width: 493px;
+	height: 152.93px;
+	padding-top: 19px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+	color: #3F3F3F;	
+}
+
+.img-main
+{
+	width: 400px;
+	height: 192px;
+	border: 3px solid #018AB8;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+
+}
+
+/*MAIN-SUB*/
+.text-main-sub
+{
+	width: 400px;
+	height: 192px;
+	padding-top: 19px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+	color: #3F3F3F;	
+}
+
+.img-main-sub
+{
+	width: 330px;
+	height: 228px;
+	left: 569px;
+	border: 3px solid #018AB8;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*INTRODUCAO*/
+.pos-introducao
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding-top: 20px;
+}
+
+.pos-img-introducao
+{
+	position: absolute;
+	left: 665px;
+	top: 0px;
+	padding-top: 20px;
+}
+
+.img-introducao
+{
+	width: 378px;
+	height: 313px;
+	border: 3px solid #018AB8;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*OCEANOS*/
+.pos-oceanos
+{
+	position: absolute;
+	left: 499px;
+	top: 445px;
+}
+
+.pos-img-oceanos
+{
+	position: absolute;
+	left: 0px;
+	top: 445px;
+}
+
+/*MARES*/
+.pos-mares
+{
+	position: absolute;
+	left: 0px;
+	top: 667px;
+}
+
+.pos-img-mares
+{
+	position: absolute;
+	left: 569px;
+	top: 697px;
+}
+
+/*MARES INTERIORES*/
+.pos-mares-interiores
+{
+	position: absolute;
+	left: 100px;
+	top: 934px;
+
+}
+
+.pos-img-mares-interiores
+{
+	position: absolute;
+	left: 569px;
+	top: 934px;
+}
+
+/*MARES ABERTOS*/
+.pos-mares-abertos
+{
+	position: absolute;
+	left: 100px;
+	top: 1192px;
+}
+
+.pos-img-mares-abertos
+{
+	position: absolute;
+	left: 569px;
+	top: 1192px;
+}
+
+/*MARES FECHADOS*/
+.pos-mares-fechados
+{
+	position: absolute;
+	left: 100px;
+	top: 1450px;
+}
+
+.pos-img-mares-fechados
+{
+	position: absolute;
+	left: 569px;
+	top: 1450px;
+}
+
+/*LAGOS*/
+.pos-lagos
+{
+	position: absolute;
+	left: 502px;
+	top: 1738px;
+}
+
+.pos-img-lagos
+{
+	position: absolute;
+	left: 0px;
+	top: 1738px;
+}
+
+/*RIOS*/
+.pos-text-rios
+{
+	position: absolute;
+	left: 0px;
+	top: 2000px;
+}
+
+.pos-img-rios
+{
+	position: absolute;
+	left: 560px;
+	top: 2000px;
+}
 
 /*RODAPÉ*/
 p.text-footer
@@ -274,5 +437,5 @@ p.text-footer
 	width: 100%;
 	height: 70px;
 	background-color: #466700;
-	top: 6973px;
+	top: 3280px;
 } 
