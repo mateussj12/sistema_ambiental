@@ -17,7 +17,7 @@ body
 .header
 {
 	position: absolute;
-	width: 100%;
+	width: 1440px;
 	height: 807px;
 	left: 0px;
 	top: 0px;
@@ -29,7 +29,7 @@ body
 .cabecalho
 {
 	position: absolute;
-	width: 100%;
+	width: 1440px;
 	height: 67.17px;
 	left: 0px;
 	top: 0px;
@@ -221,24 +221,6 @@ h3
 	color: #393939;
 }
 
-.button-main 
-{
-	position: absolute;
-	width: 139.61px;
-	height: 35.71px;
-	padding-left: 35px;
-	padding-top: 5px;
-	background: rgba(89, 134, 33, 0.9);
-	border: 2px solid #3E6C10;
-	border-radius: 5px;
-}
-
-.button-main:hover
-{
-	background: rgba(78, 98, 47, 0.9);
-	display: block;
-}
-
 a.text-button
 {
 	position: absolute;
@@ -251,6 +233,802 @@ a.text-button
 	text-decoration: none;
 }
 
+/*MAIN*/
+.main
+{
+	position: absolute;
+	left: 236px;
+	right: 151px;
+	top: 895px;
+}
+
+.text-main
+{
+	width: 323px;
+	height: 214px;
+	padding-top: 19px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+	color: #FFFFFF;	
+}
+
+.titulo-main
+{
+	position: absolute;
+	left: 321px;
+	top: -10px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sub-titulo-main
+{
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.img-main
+{
+	position: absolute;
+	width: 320px;
+	height: 257px;
+}
+
+.box-content-main
+{
+	position: absolute;
+	width: 970px;
+	height: 675px;
+	left:0px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+
+}
+
+.header-content-main
+{
+	position: absolute;
+	width: 970px;
+	height: 46px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 2.5px;
+}
+
+/*INTRODUÇÃO*/
+.text-introducao
+{
+	position: absolute;
+	width: 493.04px;
+	height: 152.93px;
+	color: #3F3F3F;
+}
+.pos-introducao
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding-top: 20px;
+}
+
+.pos-img-introducao
+{
+	position: absolute;
+	left: 655px;
+	top: 0px;
+	padding: 20px; 
+}
+
+.img-introducao
+{
+	width: 351px;
+	height: 313px;
+	border: 2px solid #1C8B00;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 8px;
+
+}
+
+/*DESERTO*/
+.pos-box-content-main-deserto
+{
+	top: 472px;
+	background: #824E29;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-deserto
+{
+	background: rgba(188, 113, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-deserto
+{
+	left: 428px;
+}
+
+.pos-subtitulo-deserto-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-deserto-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-deserto
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-deserto
+{
+	border: 3px solid #BC7100;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 3px;
+}
+
+.pos-subtitulo-deserto-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-deserto
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-deserto
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-deserto
+{
+	border: 3px solid #BC7100;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 3px;
+	}
+
+/*Diferença: 700.1px*/
+
+/*ESTEPE*/
+.pos-box-content-main-estepe
+{
+	top: 1177px;
+	background: #A25E23;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-estepe
+{
+	background: rgba(183, 130, 27, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-estepe
+{
+	left: 428px;
+}
+
+.pos-subtitulo-estepe-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-estepe-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-estepe
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-estepe
+{
+	border: 3px solid #B7821B;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 3px;
+}
+
+.pos-subtitulo-estepe-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-estepe
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-estepe
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-estepe
+{
+	border: 3px solid #B7821B;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 3px;
+}
+
+/*Diferença: 700.1px*/
+
+/*FLORESTA CONIFERA*/
+.pos-box-content-main-conifera
+{
+	top: 1880px;
+	background: #869049;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-conifera
+{
+	background: rgba(91, 124, 49, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-conifera
+{
+	left: 350px;
+}
+
+.pos-subtitulo-conifera-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-conifera-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-conifera
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-conifera
+{
+	border: 3px solid #93A63E;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-conifera-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-conifera
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-conifera
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-conifera
+{
+	border: 3px solid #93A63E;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*Diferença: 700.1px*/
+
+/*FLORESTA TROPICAL*/
+.pos-box-content-main-tropical
+{
+	top: 2583px;
+	background: #395939;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-tropical
+{
+	background: rgba(85, 128, 52, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-tropical
+{
+	left: 350px;
+}
+
+.pos-subtitulo-tropical-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-tropical-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-tropical
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-tropical
+{
+	border: 3px solid #457038;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-tropical-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-tropical
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-tropical
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-tropical
+{
+	border: 3px solid #457038;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*Diferença: 700.1px*/
+
+/*FLORESTA TEMPERADA*/
+.pos-box-content-main-temperada
+{
+	top: 3286px;
+	background: #DD9B2F;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-temperada
+{
+	background: rgba(173, 71, 16, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pos-subtitulo-temperada-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-temperada-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-temperada
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-temperada
+{
+	border: 3px solid #AD4710;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-temperada-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-temperada
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-temperada
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-temperada
+{
+	border: 3px solid #AD4710;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+/*Diferença: 700.1px*/
+
+/*SAVANA*/
+.pos-box-content-main-savana
+{
+	top: 3989px;
+	background: #2B3724;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-savana
+{
+	background: rgba(6, 81, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-savana
+{
+	left: 428px; 
+}
+
+.pos-subtitulo-savana-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-savana-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-savana
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-savana
+{
+	border: 3px solid #065100;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-savana-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-savana
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-savana
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-savana
+{
+	border: 3px solid #065100;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*Diferença: 700.1px*/
+
+/*TUNDRA*/
+.pos-box-content-main-tundra
+{
+	top: 4692px;
+	background: #3A5878;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-tundra
+{
+	background: rgba(111, 129, 141, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-tundra
+{
+	left: 428px; 
+}
+
+.pos-subtitulo-tundra-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-tundra-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-tundra
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-tundra
+{
+	border: 3px solid #373D0B;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-tundra-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-tundra
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-tundra
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-tundra
+{
+	border: 3px solid #373D0B;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*Diferença: 700.1px*/
+
+/*VEGETAÇÃO MEDITERRANEA*/
+.pos-box-content-main-medite
+{
+	top: 5395px;
+	background: #606916;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+}
+
+.pos-header-content-main-medite
+{
+	background: rgba(55, 61, 11, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pos-subtitulo-medite-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-medite-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-medite
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-medite
+{
+	border: 3px solid #373D0B;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-medite-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-medite
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-medite
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-medite
+{
+	border: 3px solid #373D0B;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+/*Diferença: 700.1px*/
+
+/*VEGETAÇÃO MONTANHA*/
+.pos-box-content-main-montanha
+{
+	background: #5A6543;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+	border-radius: 2.5px;
+	top: 6098px;
+}
+
+.pos-header-content-main-montanha
+{
+	background: rgba(81, 99, 66, 0.9);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);	
+}
+
+.pos-subtitulo-montanha-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 88px;	
+}
+
+.pos-text-montanha-conceitos
+{
+	position: absolute;
+	left: 570px;
+	top: 103px;
+}
+
+.pos-img-conceitos-montanha
+{
+ 	position: absolute;
+ 	left: 69.03px;
+ 	top: 88px;
+}
+
+.img-conceitos-montanha
+{
+	border: 3px solid #516342;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
+
+.pos-subtitulo-montanha-caracteristicas
+{
+	position: absolute;
+	top: 370px;
+	left: 69px;
+}
+
+.pos-text-caracteristicas-montanha
+{
+	position: absolute;
+	top: 388.92px;
+	left: 69px;
+}
+
+.pos-img-caracteristicas-montanha
+{
+	position: absolute;
+	top: 375px;
+	left: 570px;
+}
+
+.img-caracteristicas-montanha
+{
+	border: 3px solid #516342;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+}
 
 /*RODAPÉ*/
 p.text-footer
@@ -271,8 +1049,8 @@ p.text-footer
 .footer
 {	
 	position: absolute;
-	width: 100%;
+	width: 1440px;
 	height: 70px;
 	background-color: #466700;
-	top: 6973px;
+	top: 7780.1px;
 } 

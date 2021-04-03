@@ -17,7 +17,7 @@ body
 .header
 {
 	position: absolute;
-	width: 100%;
+	width: 1440px;
 	height: 807px;
 	left: 0px;
 	top: 0px;
@@ -29,7 +29,7 @@ body
 .cabecalho
 {
 	position: absolute;
-	width: 100%;
+	width: 1440px;
 	height: 67.17px;
 	left: 0px;
 	top: 0px;
@@ -221,28 +221,9 @@ h3
 	color: #393939;
 }
 
-.button-main 
-{
-	position: absolute;
-	width: 139.61px;
-	height: 35.71px;
-	padding-left: 35px;
-	padding-top: 5px;
-	background: rgba(89, 134, 33, 0.9);
-	border: 2px solid #3E6C10;
-	border-radius: 5px;
-}
-
-.button-main:hover
-{
-	background: rgba(78, 98, 47, 0.9);
-	display: block;
-}
-
 a.text-button
 {
 	position: absolute;
-	
 	font-style: normal;
 	font-weight: 900;
 	font-size: 16px;
@@ -251,6 +232,377 @@ a.text-button
 	text-decoration: none;
 }
 
+/*MAIN*/
+.main
+{
+	position: absolute;
+	left: 236px;
+	right: 151px;
+	top: 895px;
+}
+
+.header-content-main
+{
+	position: absolute;
+	top: 0.46px;
+	left: 0.3px;
+	width: 963.9px;
+	height: 20.25px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
+}
+
+.box-content-main
+{
+	position: absolute;
+	width: 970px;
+	height: 675px;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 4px;
+
+}
+
+.text-main
+{
+	position: absolute;
+	width: 369px;
+	height: 191px;
+	top: 107px;
+	left: 101px;
+	padding-top: 19px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #3F3F3F;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pos-titulo-main
+{
+	position: absolute;
+	left: 240px;
+	top: 0px;
+}
+
+.titulo-main
+{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.sub-titulo-main
+{
+	position: absolute;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 21px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	left: 100px;
+	top: 80.94px;
+	color: #393939;
+}
+
+.img1-main
+{
+	position: absolute;
+	width: 270px;
+	height: 190.69px;
+	top: 80.94px;
+	left: 600px;
+}
+
+.img2-main
+{
+	position: absolute;
+	width: 332px;
+	height: 242.16px;
+	top: 358.97px;
+	left: 100px;
+}
+
+.img3-main
+{
+	position: absolute;
+	width: 335px;
+	height: 242.16px;
+	top: 332.25px;
+	left: 535px;
+}
+
+/*INTRODUÇÃO*/
+.text-introducao
+{
+	position: absolute;
+	width: 493.04px;
+	height: 152.93px;
+	color: #3F3F3F;
+}
+.pos-introducao
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding-top: 20px;
+}
+
+.pos-img-introducao
+{
+	position: absolute;
+	left: 655px;
+	top: 0px;
+	padding: 20px; 
+}
+
+.img-introducao
+{
+	width: 378px;
+	height: 300px;
+	border: 3px solid #664B3C;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.9));
+	border-radius: 5px;
+
+}
+
+/*VEGETAÇÃO DESERTO*/
+.box-deserto
+{
+	position: absolute;
+	top: 481px;
+	border: 3px solid #CD9242;
+}
+
+.header-deserto
+{
+	background: #CD9242;
+}
+
+.pos-titulo-deserto
+{
+	position: absolute;
+	left: 245px;
+	top: 0px;
+}
+
+.img-deserto
+{
+	border: 3px solid #CD9242;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO ESTEPE*/
+.box-estepe
+{
+	position: absolute;
+	top: 1186px;
+	border: 3px solid #688F48;
+}
+
+.header-estepe
+{
+	background: #688F48;
+}
+
+.pos-titulo-estepe
+{
+	position: absolute;
+	left: 245px;
+	top: 0px;
+}
+
+.img-estepe
+{
+	border: 3px solid #688F48;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO CONIFERA*/
+.box-conifera
+{
+	position: absolute;
+	top: 1891px;
+	border: 3px solid #204808;
+}
+
+.header-conifera
+{
+	background: #204808;
+}
+
+.pos-titulo-conifera
+{
+	position: absolute;
+	left: 245px;
+	top: 0px;
+}
+
+.img-conifera
+{
+	border: 3px solid #204808;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO TEMPERADA*/
+.box-temperada
+{
+	position: absolute;
+	top: 2599px;
+	border: 3px solid #B28B3A;
+}
+
+.header-temperada
+{
+	background: #B28B3A;
+}
+
+.pos-titulo-temperada
+{
+	position: absolute;
+	left: 245px;
+	top: 0px;
+}
+
+.img-temperada
+{
+	border: 3px solid #B28B3A;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO TROPICAL*/
+.box-tropical
+{
+	position: absolute;
+	top: 3303px;
+	border: 3px solid #C81F08;
+}
+
+.header-tropical
+{
+	background: #C81F08;
+}
+
+.pos-titulo-tropical
+{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}
+
+.img-tropical
+{
+	border: 3px solid #C81F08;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO SAVANA*/
+.box-savana
+{
+	position: absolute;
+	top: 4006px;
+	border: 3px solid #885E3C;
+}
+
+.header-savana
+{
+	background: #885E3C;
+}
+
+.pos-titulo-savana
+{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}
+
+.img-savana
+{
+	border: 3px solid #885E3C;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO TRUNDA*/
+.box-tundra
+{
+	position: absolute;
+	top: 4711px;
+	border: 3px solid #333E44;
+}
+
+.header-tundra
+{
+	background: #333E44;
+}
+
+.pos-titulo-tundra
+{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}
+
+.img-tundra
+{
+	border: 3px solid #333E44;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO MEDITERRANEA*/
+.box-mediterranea
+{
+	position: absolute;
+	top: 5416px;
+	border: 3px solid #A39D55;
+}
+
+.header-mediterranea
+{
+	background: #A39D55;
+}
+
+.pos-titulo-mediterranea
+{
+	position: absolute;
+	left: 217px;
+	top: 0px;
+}
+
+.img-mediterranea
+{
+	border: 3px solid #A39D55;
+	border-radius: 5px;
+}
+
+/*VEGETAÇÃO MONTANHA*/
+.box-montanha
+{
+	position: absolute;
+	top: 6121px;
+	border: 3px solid #1F4E90;
+}
+
+.header-montanha
+{
+	background: #1F4E90;
+}
+
+.pos-titulo-montanha
+{
+	position: absolute;
+	left: 235px;
+	top: 0px;
+}
+
+.img-montanha
+{
+	border: 3px solid #1F4E90;
+	border-radius: 5px;
+}
 
 /*RODAPÉ*/
 p.text-footer
@@ -271,8 +623,8 @@ p.text-footer
 .footer
 {	
 	position: absolute;
-	width: 100%;
+	width: 1440px;
 	height: 70px;
 	background-color: #466700;
-	top: 6973px;
+	top: 7846px;
 } 
