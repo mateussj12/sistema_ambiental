@@ -299,7 +299,9 @@ a.text-button
 	position: absolute;
 	width: 493.04px;
 	height: 152.93px;
+	left: -20px;
 	color: #3F3F3F;
+	padding: 20px;
 }
 .pos-introducao
 {
